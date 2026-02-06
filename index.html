@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbyssWatcher // Inteligencia de Phishing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-grid"></div>
+
+    <div class="scanner-container">
+        <h1>Abyss Watcher</h1>
+        <p style="color: #666; margin-bottom: 2rem;">SISTEMA AVANZADO DE INTELIGENCIA DE AMENAZAS</p>
+
+        <div class="input-zone">
+            <input type="text" id="urlInput"
+                placeholder="Ingrese URL para análisis forense (ej. paypal-secure-login.com)...">
+            <button class="btn-scan" onclick="startUrlScan()">INICIAR ESCANEO</button>
+            <div class="loader" id="loader"></div>
+
+            <div class="drop-zone" id="dropZone">
+                <p>ARRASTRAR ARCHIVO PARA ANÁLISIS DE HASH (SHA-256)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="results-panel" id="resultsPanel">
+        <div class="panel-header">
+            <h3>REPORTE FORENSE DIGITAL #<span id="scanId">0000</span></h3>
+            <button class="close-btn" onclick="closeResults()">X</button>
+        </div>
+
+        <div class="panel-body">
+
+            <div class="score-column">
+                <div class="score-circle" id="scoreCircle">0</div>
+                <h2 id="riskLevel" style="margin-top: 1rem; letter-spacing: 2px;">ESPERANDO...</h2>
+                <div id="verdictBadge" class="verdict-badge">PENDIENTE</div>
+            </div>
+
+            <div class="details-column" id="detailsContent">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

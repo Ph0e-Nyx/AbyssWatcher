@@ -18,6 +18,7 @@
 
 <br><br>
 
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=ffffff&text=CAPACIDADES%20DE%20COMBATE&fontColor=000000&height=40&fontSize=22" width="100%"/>
 </div>
@@ -39,7 +40,7 @@ Arquitectura "Privacy-First" que permite el análisis de artefactos sospechosos 
 
 ### 3. <img src="https://img.icons8.com/ios/256/FFFFFF/settings.png" width="22" valign="middle"> Interfaz Cyber-Ops
 * <img src="https://img.icons8.com/ios/256/FFFFFF/code.png" width="18" valign="middle"> **Diseño Táctico**: Interfaz optimizada para centros de operaciones de seguridad (SOC) con modo oscuro y alto contraste.
-* <img src="https://img.icons8.com/ios/256/FFFFFF/eye.png" width="18" valign="middle"> **Paleta "Pastel Blue"**: Diseñada ergonómicamente para reducir la fatiga visual durante sesiones de análisis prolongadas.
+* <img src="https://img.icons8.com/ios/256/FFFFFF/paint-palette.png" width="18" valign="middle"> **Paleta "Pastel Blue"**: Diseñada ergonómicamente para reducir la fatiga visual durante sesiones de análisis prolongadas.
 * <img src="https://img.icons8.com/ios/256/FFFFFF/list.png" width="18" valign="middle"> **Reportes Técnicos**: Generación de tablas de datos forenses listas para informes de incidentes.
 
 <br><br>
